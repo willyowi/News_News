@@ -1,11 +1,13 @@
 body{
-    text-align: center
+    text-align:
+    background:blue;
+    color:red;
 }
 
 h1{
     text-align: center;
-    color:white;
-    background-color:lightseagreen;
+    color:blue;
+    background-color:red;
     font-family: 'Viga', sans-serif;
 }
 

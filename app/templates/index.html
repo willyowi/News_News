@@ -1,34 +1,41 @@
-{% extends 'base.html' %}
+    {% extends 'base.html' %}
+     {% import 'macros.html' as macro %}
 
- {% import 'macros.html' as macro %}
 
- {% block content %}
- <div class="container">
-<div class="row">
-  <div class="col-md-12">
 
-     <h1>Tech News</h1>
-    <ul>
-      {{macro.displaySourcesList(technology)}}
+      <!-- Styles block -->
+     {% block styles%}
+         {{ super() }}
+         <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+     {% endblock %}
+     <!-- Content block -->
+     {% block content %}
+     <div class="container">
+    <div class="row">
+      <div class="col-md-12">
 
-    </ul>
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-12">
-    <h1>Sports News</h1>
-    <ul>
-      {{macro.displaySourcesList(sports)}}
-    </ul>
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-12">
-    <h1>Entertainment News</h1>
-    <ul>
-      {{macro.displaySourcesList(entertainment)}}
-    </ul>
-  </div>
-</div>
-</div>
-{% endblock %}
+         <h1>Technology World</h1>
+        <ul>
+          {{macro.displaySourcesList(technology)}}
+
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Sports Arena</h1>
+        <ul>
+          {{macro.displaySourcesList(sports)}}
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Entertainment</h1>
+        <ul>
+          {{macro.displaySourcesList(entertainment)}}
+        </ul>
+      </div>
+    </div>
+    </div>
+    {% endblock %}
