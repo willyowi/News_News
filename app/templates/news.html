@@ -12,13 +12,13 @@
 
             <a href="{{article_row.url}}">
                 <img src="{{article_row.image}}" alt="{{article_row.title}}" class="img-responsive"
-                    styles="height:30px">
+                    styles="height:30px"><br>
             </a>
             <div class="caption">
                 <h4><a href="{{article_row.url}}" target="_blank">{{article_row.title |truncate(35)}}</a></h4>
-                <p>{{article.description | truncate(80)}}</p>
+                <p>{{article.description | truncate(80)}} </p>
                 <a href="{{article_row.url}}" target="_blank"> Read More</a>
-            </div>
+            </div><br>
             <div class="footer">
                 Published on: {{article_row.date}}
             </div>
