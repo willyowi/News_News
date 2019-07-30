@@ -1,4 +1,4 @@
-## News Highlight is a web application meant to nring people up to speed on the current affairs
+## News Highlight is a web application meant to bring people up to speed on the current affairs
 ### June 28th, 2019
 #### By Owino Wilson
 
@@ -11,10 +11,9 @@ A user will have to click on `Read More` on a specific source to view artciles o
 ## Specifications
 | Behavior            | Input                         | Output                        |
 | ------------------- | ----------------------------- | ----------------------------- |
-| View Business sources | Click on the `View Stories` button | Scrolls the page to the `BUSINESS` section |
-| View Entertainment sources | Click on the `View Stories` button | Scrolls the page to the `ENTERTAINMENT` section |
-| View Sports sources | Click on the `View Stories` button | Scrolls the page to the `SPORTS` section |
-| View Top Headlines Articles | Click on the `Top Headlines` button | Redirects to a page that displays articles on Top Headlines |
+| View Business sources |   | Scrolls the page to the `BUSINESS` section |
+| View Entertainment sources |  | Scrolls the page to the `ENTERTAINMENT` section |
+| View Sports sources |  | Scrolls the page to the `SPORTS` section |
 
 ## Prerequiites
     - Python 3.6 required
