@@ -14,8 +14,9 @@ A user will have to click on `Read More` on a specific source to view artciles o
 | View Business sources |   | Scrolls the page to the `BUSINESS` section |
 | View Entertainment sources |  | Scrolls the page to the `ENTERTAINMENT` section |
 | View Sports sources |  | Scrolls the page to the `SPORTS` section |
-
+## TechNews
 ![screenshot](app/static/images/tech.png)
+## Sport news
 ![screenshot](app/static/images/sport.png)
 
 When you click on sport news on BBC you come across good stories like these:
