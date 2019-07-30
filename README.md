@@ -16,6 +16,10 @@ A user will have to click on `Read More` on a specific source to view artciles o
 | View Sports sources |  | Scrolls the page to the `SPORTS` section |
 ## TechNews
 ![screenshot](app/static/images/tech.png)
+
+Hacking fanatics have their best articles:
+![screenshot](app/static/images/hacker.png)
+
 ## Sport news
 ![screenshot](app/static/images/sport.png)
 
