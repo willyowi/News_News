@@ -15,6 +15,13 @@ A user will have to click on `Read More` on a specific source to view artciles o
 | View Entertainment sources |  | Scrolls the page to the `ENTERTAINMENT` section |
 | View Sports sources |  | Scrolls the page to the `SPORTS` section |
 
+![screenshot](app/static/images/tech.png)
+![screenshot](app/static/images/sport.png)
+
+When you click on sport news on BBC you come across good stories like these:
+
+![screenshot](app/static/images/pepe.png)
+
 ## Prerequiites
     - Python 3.6 required
 
